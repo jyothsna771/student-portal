@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+.container
+{
+    background-color: #008e615e;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    width: 400px;
+    max-width: 100%;
+}
+.header
+{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+.header h2{
+    margin: 0;
+}
